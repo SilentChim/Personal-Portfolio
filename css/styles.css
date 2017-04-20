@@ -1,0 +1,310 @@
+/* Mobile responsive breakpoint media queries */
+
+@media only screen and (min-width: 850px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 72px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 24px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 849px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 60px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 24px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 749px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 48px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 24px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 629px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 40px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 24px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 629px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 36px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 20px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 30px;
+     letter-spacing: 15px;
+   }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 24px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 16px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+   h1 {
+     font-family: 'Archivo Black', sans-serif;
+     color: #EAE4E4;
+     text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+     font-weight:500;
+     font-size: 20px;
+     letter-spacing: 15px;
+   }
+
+   .title-body {
+       font-family: 'Ruda', sans-serif;
+       font-size: 12px;
+       font-weight: 250;
+       color: #EAE4E4;
+       text-shadow: 0.125em 0.125em 0 hsla(0,0%,0%,0.05);
+       letter-spacing: 3px;
+       position: relative;
+       padding-top: 20px;
+     }
+
+}
+
+h2 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #c11f28;
+  font-weight:500;
+  font-size: 40px;
+  letter-spacing: 15px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+body {
+  font-family: 'Ruda', sans-serif;
+  color: #707a8c;
+  font-size: 2.25em;
+}
+
+p {
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+form {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-title {
+  color: #4fc2ff;
+  font-size: 1.5em;
+}
+
+/* Navigation Header */
+
+.navbar-nav {
+  font-size: 10px;
+}
+
+.navbar, .navbar-inverse {
+  background-color: #ffffff;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: block;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #8a909b;
+	font-family: 'Ruda';
+	font-size: 2em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #ffdddd;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+/* Title Banner */
+
+.title-block {
+  position: relative;
+  top: 125px;
+}
+
+.hero {
+  position: relative;
+  background-color: #c11f28;
+  height: 500px;
+  width: 100%;
+  z-index: 99;
+}
+
+.hero:after {
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #c11f28;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+}
+
+.work-wrapper {
+  background-color: #333847;
+  height: 1900px;
+  width: 100%;
+}
+
+.contact-wrapper {
+  background-color: #333847;
+  height: 1000px;
+  width: 100%;
+}
+
+.section-img {
+  max-height: 400px;
+  margin-top: 90px; /* @ 991px, the margin collapses to white and loses it's color */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+.spacer {
+  margin-bottom: 50px;
+}
