@@ -1,139 +1,148 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="24x24">
   <title>Peyton Lucas - Digital Developer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid">
-      <!-- Header & Nav -->
-      <nav class="navbar navbar-inverse navbar-static-top">
-    		<div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-        </div>
+  <main class="container-fluid">
+    <!-- Header & Nav -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <article class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </article>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-  				<ul class="nav navbar-nav">
-  					<li><a href="#work">WORK</a></li>
-  					<li><a href="#about">ABOUT</a></li>
-  					<li><a href="#contact">CONTACT</a></li>
-  				</ul>
-  			</div>
-  		</nav>
-      <!-- Title -->
-      <div class="row">
-        <div class="hero">
-          <div class="col-md-12 text-center">
-            <div class="title-block">
-              <h1>PEYTON LUCAS</h1>
-              <p class="title-body">...</p>
-              <h4 class="title-body">Digital Designer</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Work Title -->
-      <div class="row" id="work">
-        <div class="work-wrapper">
-          <div class="col-md-12 text-center">
-            <img src="images/desktop_workspace.jpeg" class="img-responsive img-circle section-img" alt="Desktop Workspace">
-            <h2>WORK</h2>
-            <h4 class="spacer">Knick Knacks</h4>
-            <div class="col-md-12 text-center">
-              <img class="img-responsive" src="images/html_code.jpeg" data-toggle="modal" data-target="#project1" width="1070">
-              <h3>Portfolio Website</h3>
-              <p><a href="http://github.com/">Link to project</a></p>
-            </div>
-            <div class="col-md-6 text-center">
-              <img class="img-responsive" src="images/black-and-white-code-programming-tech-79290.jpeg" data-toggle="modal" data-target="#project1" width="450">
-              <h3>Movie Trailers Website</h3>
-              <p><a href="http://github.com/">Link to project</a></p>
-            </div>
-            <div class="col-md-6 text-center">
-              <img class="img-responsive" src="images/tournament_database.jpeg" data-toggle="modal" data-target="#project1" width="450">
-              <h3>Tournament Database</h3>
-              <p><a href="http://github.com/">Link to project</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- About Title -->
-      <div class="row" id="about">
-        <div class="col-md-12 text-center">
+     <!-- Menu Items -->
+      <article class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav">
+					<li><a href="#work" class="page-scroll">WORK</a></li>
+					<li><a href="#about" class="page-scroll">ABOUT</a></li>
+					<li><a href="#contact" class="page-scroll">CONTACT</a></li>
+				</ul>
+			</article>
+		</nav>
+    <!-- Title -->
+    <header class="row">
+      <section class="hero">
+        <section class="col-md-12 text-center">
+          <article class="title-block">
+            <h1>PEYTON LUCAS</h1>
+            <p class="title-body">...</p>
+            <h4 class="title-body">Digital Designer</h4>
+          </article>
+        </section>
+      </section>
+    </header>
+    <!-- Work Title -->
+    <section class="row" id="work">
+      <section class="work-wrapper">
+        <article class="col-md-12 text-center inherit">
+          <img src="images/desktop_workspace.jpeg" class="img-responsive img-circle section-img" alt="Desktop Workspace">
+          <h2>WORK</h2>
+          <h4 class="spacer">Knick Knacks</h4>
+          <article class="col-md-12 text-center">
+            <img class="img-responsive" src="images/html_code.jpeg" data-toggle="modal" data-target="#project1" width="1070" alt="HTML code on a computer screen">
+            <h3>Portfolio Website</h3>
+            <p class="spacer"><a href="https://github.com/SilentChim/personal-portfolio.git" target="_blank" class="btn btn-default">Link to project</a></p>
+          </article>
+          <article class="col-md-6 text-center">
+            <img class="img-responsive" src="images/black-and-white-code-programming-tech-79290.jpeg" data-toggle="modal" data-target="#project1" width="450" alt="jQuery code on a computer screen">
+            <h3>Movie Trailers Website</h3>
+            <p class="spacer"><a href="https://github.com/SilentChim/movie-trailers-web-app.git" target="_blank" class="btn btn-default">Link to project</a></p>
+          </article>
+          <article class="col-md-6 text-center">
+            <img class="img-responsive" src="images/tournament_database.jpeg" data-toggle="modal" data-target="#project1" width="450" alt="Function code on a computer screen">
+            <h3>Tournament Database</h3>
+            <p class="bottom-padding"><a href="https://github.com/SilentChim/swiss-tournament-database.git" target="_blank" class="btn btn-default">Link to project</a></p>
+          </article>
+        </article>
+      </section>
+    </section>
+    <!-- About Title -->
+    <section class="row" id="about">
+      <section class="about-wrapper">
+        <article class="col-md-12 text-center">
           <img src="images/peyton_lucas.jpg" class="img-responsive img-circle section-img" alt="Designer's Profile Picture">
           <h2>ABOUT</h2>
           <h4 class="spacer">This and that</h4>
-        </div>
-      </div>
-      <!-- About Content -->
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-6">
+        </article>
+        <article class="col-md-2"></article>
+        <article class="col-md-6">
           <p class="p-title">Hi, I'm Peyton Lucas.</p>
           <p>I design websites. That's the long and short of it.
             UI and UX, Sketch, Illustrator, Potatoshop and pretty decent
              HTML and CSS — with JS and that nice Bootstrap grid stuff.</p>
           <p>I've been going at it for a while now, and it's coming
             along. I just like putting users first and making shit happen!</p>
-          <p>Feel free to drop me a few lines of garbled text in the
+          <p class="bottom-padding-desktop">Feel free to drop me a few lines of garbled text in the
             contact form below to see if it does anything interesting.</p>
-        </div>
-        <div class="col-md-2">
+        </article>
+        <article class="col-md-2">
           <p class="p-title">TL;DR</p>
           <ul>
             <li>Web UI & UX</li>
             <li>HTML & CSS</li>
             <li>Python & SQL</li>
           </ul>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-      <!-- Contact Title -->
-      <div class="row" id="contact">
-        <div class="contact-wrapper">
-          <div class="col-md-12 text-center">
-            <img src="images/iphone.jpg" class="img-responsive img-circle section-img" alt="Hand holding an iPhone">
-            <h2>CONTACT</h2>
-            <h4 class="spacer">Say Hi</h4>
-          </div>
-          <div class="col-md-12">
-            <form action="" method="">
-              <div class="form-group">
-                <label for="name" class="sr-only">Name</label>
-                <input type-"text" class="form-control" id="name" placeholder="What's your name?"/>
-              </div>
-              <div class="form-group">
-                <label for="email" class="sr-only">Email</label>
-                <input type-"email" class="form-control" id="email" placeholder="Your Email Address"/>
-              </div>
-              <div class="form-group">
-                <label for="question" class="sr-only">What is your question</label>
-                <input type-"text" class="form-control" id="question" placeholder="How can I help?"/>
-              </div>
-              <div class="form-group">
-                <input type="submit" id="submit" class="btn btn-default" value="Submit"/>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <footer>
-
-      </footer>
-  </div>
+        </article class="bottom-padding-mobile">
+        <article class="col-md-2 bottom-padding"></article>
+      </section>
+    </section>
+    <!-- Contact Title -->
+    <section class="row" id="contact">
+      <section class="contact-wrapper">
+        <article class="col-md-12 text-center inherit">
+          <img src="images/iphone.jpg" class="img-responsive img-circle section-img" alt="Hand holding an iPhone">
+          <h2>CONTACT</h2>
+          <h4 class="spacer">Say Hi</h4>
+        </article>
+        <article class="col-md-12 text-center inherit">
+          <form action="/action_page.php" method="get">
+            <div class="form-group">
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="What's your name?"/>
+            </div>
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email Address"/>
+            </div>
+            <div class="form-group">
+              <label for="question" class="sr-only">What is your question</label>
+              <input type="text" class="form-control" id="question" placeholder="How can I help?"/>
+            </div>
+            <div class="form-group bottom-padding">
+              <input type="submit" id="submit" class="btn btn-default" value="Drop me a line"/>
+            </div>
+          </form>
+        </article>
+      </section>
+    </section>
+    <footer class="row">
+      <section class="footer-wrapper">
+        <article class="col-md-12 text-center">
+          <a href="mailto:camplucastein@gmail.com?Subject=Request%20of%20Service" target="_top"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href="images/peyton_lucas_resume.pdf" download><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/peytonlucas/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        </article>
+      </section>
+    </footer>
+  </main>
 </body>
